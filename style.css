@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .clockContainer {
     margin: 0 auto;
     /* background-image: url("clock1.png"); */
@@ -103,7 +108,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     height: 3rem;
     background-color: lightgray;
