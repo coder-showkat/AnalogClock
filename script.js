@@ -13,7 +13,7 @@ let clock = [
 ]
 
 setClock.style.backgroundImage = clock[0];
-setInterval(() => {
+window.onload = setInterval(() => {
     let d = new Date();
     let h = d.getHours();
     let m = d.getMinutes();
