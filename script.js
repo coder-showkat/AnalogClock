@@ -13,7 +13,6 @@ let clock = [
 ]
 
 setClock.style.backgroundImage = clock[0];
-
 setInterval(() => {
     let d = new Date();
     let h = d.getHours();
@@ -25,6 +24,8 @@ setInterval(() => {
     document.getElementById('hour').style.transform = `rotate(${hr}deg)`
     document.getElementById('minute').style.transform = `rotate(${min}deg)`
     document.getElementById('second').style.transform = `rotate(${sec}deg)`
+    let sound = new Audio('tick.mp3')
+    sound.play();
 }, 1000)
 
 
