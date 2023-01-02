@@ -5,6 +5,7 @@
 
 .clockContainer {
     margin: 0 auto;
+    margin-top: 1rem;
     /* background-image: url("clock1.png"); */
     /* background-image: url("clock2.png"); */
     background-size: 100%;
