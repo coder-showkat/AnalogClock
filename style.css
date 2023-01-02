@@ -63,9 +63,9 @@
 }
 
 .button-container {
-    position: relative;
-    top: 15px;
+    margin-top: 20px;
     text-align: center;
+    min-height: 5rem;
 }
 
 .button-container #changeClock {
@@ -74,6 +74,7 @@
     border: 1px solid lightgrey;
     background-color: rgb(172, 255, 227);
     font-weight: bolder;
+    display: inline-block;
 }
 
 .button-container #changeClock:hover {
@@ -108,7 +109,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
     position: fixed;
     bottom: 0px;
     height: 3rem;
